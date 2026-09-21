@@ -11,5 +11,15 @@ jsDelivr 是一个免费的公共 CDN 服务，可以将 GitHub 仓库中的文�
 https://cdn.jsdelivr.net/gh/WXBai3399/cdn@main/img/YourName.jpg
 
 在 HTML 文件中引用：
-
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/1506085843/fillDiff@master/src/main/resources/css/diff2html.min.css" />
+```html
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/1506085843/fillDiff@master/src/main/resources/css/diff2html.min.css" />
+  </head>
+  <body>
+    <div>hello</div>
+  </body>
+</html>
+```
