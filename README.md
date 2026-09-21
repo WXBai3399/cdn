@@ -23,3 +23,19 @@ https://cdn.jsdelivr.net/gh/WXBai3399/cdn@main/img/YourName.jpg
   </body>
 </html>
 ```
+
+@{version-number}您还可以通过添加到存储库名称来利用语义版本控制。您可以根据需要定位主要、次要和补丁版本。
+```html
+<!-- Always get the latest version -->
+<!-- Not recommended for production sites! -->
+<script src="https://cdn.jsdelivr.net/gh/cferdinandi/atomic/dist/atomic.js"></script>
+
+<!-- Get minor updates and patch fixes within a major version -->
+<script src="https://cdn.jsdelivr.net/gh/cferdinandi/atomic@4/dist/atomic.js"></script>
+
+<!-- Get patch fixes within a minor version -->
+<script src="https://cdn.jsdelivr.net/gh/cferdinandi/atomic@4.0/dist/atomic.js"></script>
+
+<!-- Get a specific version -->
+<script src="https://cdn.jsdelivr.net/gh/cferdinandi/atomic@4.0.0/dist/atomic.js"></script>
+```
